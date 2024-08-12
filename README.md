@@ -1,5 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# NominaRD
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This repo allows you to calculate payments, extra time and others data on employee payments.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Reproduce
+* Clone this repo:
+```ssh
+git clone https://github.com/ingismaelcm/nominard.git 
+```
+* Install dependencies
+```bash
+npm i
+```
+* Copy and set env vars
+```bash
+# Windows
+copy .env.example .env
+
+#unix
+cp .env.example .env
+```
+* Run for dev
+```bash
+npm run dev
+```
+
