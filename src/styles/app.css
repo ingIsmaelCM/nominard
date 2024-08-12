@@ -1,0 +1,9 @@
+@import "tailwind.css";
+
+tr:last-of-type{
+    @apply font-bold bg-gray-100;
+}
+
+tr:last-of-type td:last-of-type{
+    @apply text-lg text-primary;
+}
